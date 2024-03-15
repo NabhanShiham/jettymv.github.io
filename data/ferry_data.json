@@ -1,0 +1,40 @@
+{
+    "ferry_services": [
+      {
+        "destination": "Maafushi",
+        "courier": "iCom Tours",
+        "contact_phone": "+960 7712069",
+        "ticket_cost": "USD 25",
+        "travel_time": "1 hour"
+      },
+      {
+        "destination": "Dhiffushi",
+        "courier": "MTCC",
+        "contact_phone": "1650",
+        "ticket_cost": "USD 12",
+        "travel_time": "2 hours"
+      },
+      {
+        "destination": "Maafushi",
+        "courier": "Maafushi Tours",
+        "contact_phone": "+960 7352222",
+        "ticket_cost": "-",
+        "travel_time": "1 hour"
+      },
+      {
+        "destination": "Thulusdhoo",
+        "courier": "MTCC",
+        "contact_phone": "1650",
+        "ticket_cost": "USD 12",
+        "travel_time": "1.5 hour"
+      },
+      {
+        "destination": "Huraa",
+        "courier": "MTCC",
+        "contact_phone": "1650",
+        "ticket_cost": "USD 12",
+        "travel_time": "1 hour"
+      }
+    ]
+  }
+  

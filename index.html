@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JettyMV - Ferry Services Information Board</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Body styles */
+        body {
+            font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+            background-color: #f0f5f5; /* Light blue background */
+            color: #333; /* Dark text color */
+        }
+
+        /* Adjust spacing between heading and search box */
+        h2 {
+            text-align: center;
+            margin-top: 20px; /* Add margin to the top of the heading */
+            color: #1565c0; /* Dark blue heading color */
+            padding-bottom: 20px;
+        }
+
+        /* Adjust width of search box */
+        #searchInput {
+            width: 300px;
+            margin: 0 auto; /* Center the search box */
+        }
+
+        /* Adjust width of information boxes */
+        .card {
+            max-width: 500px; /* Set maximum width */
+            margin: 0 auto; /* Center the information boxes */
+            background-color: #fff; /* White background for cards */
+            border-radius: 10px; /* Rounded corners for cards */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect for cards */
+            margin-bottom: 20px; /* Add margin bottom to cards */
+            text-align: center; /* Center align the text */
+        }
+
+        /* Adjust width of information boxes */
+        .card .card-body {
+            padding: 20px;
+        }
+
+        /* Ad Space */
+        .ad-space {
+            text-align: center;
+            margin-top: 30px; /* Add margin to the top of the ad space */
+            margin-bottom: 30px; /* Add margin to the bottom of the ad space */
+        }
+
+        /* Styling for the added paragraph */
+        .description {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+            color: #1565c0; /* Dark blue color */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container for ferry service information -->
+    <div class="container mt-5">
+        <!-- Description -->
+        <p class="description">Ferry and speedboat information for travel from Male' to various destinations.</p>
+        <h2>JettyMV</h2>
+        <!-- Search Bar -->
+        <input type="text" id="searchInput" class="form-control mb-3" placeholder="Search by destination...">
+        <!-- Ad Space -->
+        <div class="ad-space">
+            <!-- Replace this with your Google Ads code -->
+        </div>
+        <div id="ferryServices"></div>
+    </div>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- jQuery (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- JavaScript code -->
+    <script src="js/script.js"></script>
+</body>
+</html>
